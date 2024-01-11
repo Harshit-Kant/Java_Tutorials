@@ -76,7 +76,27 @@ public class Calculator {
     }
 }
 
+## 3. Printing all natural numbers in a given range 
+import java.util.Scanner
+public class NaturalNum{
+    public static void main{String[] args){
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter number 1:");
+        int n = scn.nextInt();
+        System.out.println("Enter number 2:");
+        int m =scn.nextInt();
+        N_num(n,m);
+    }
+    public static void N_num(int n,int m){
+        for(int i=n;i<=m;i++){
+            System.out.println(i);
+        }
+    }
+}
 
+        
+
+        
 
 
 
