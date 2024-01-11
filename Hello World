@@ -1,0 +1,11 @@
+Here is how your first program in Java will look like
+
+import java.util.*;
+
+public class Hello_World {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+Dont think much about it , just have a look and try to run this code on your computer.
